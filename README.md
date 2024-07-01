@@ -91,7 +91,3 @@ Contributions are welcome! If you have suggestions for improving the articles, t
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-You can copy this text into your README file on GitHub. If you need any further modifications or additions, let me know!
