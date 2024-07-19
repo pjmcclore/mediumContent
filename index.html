@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ada Lovelace Day Content</title>
+</head>
+<body>
+    <div id="content"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('https://calico.mcclore.com/ada2HG-wLbot/p1/p1-Ada_Lovelace_Day_v4.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('content').innerHTML = data;
+                })
+                .catch(error => console.error('Error fetching content:', error));
+        });
+    </script>
+</body>
+</html>
